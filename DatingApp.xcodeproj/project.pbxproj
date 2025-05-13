@@ -1,0 +1,1148 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64F8C3762DD2FBDA00A64F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F8C3722DD2FBDA00A64F9E /* Assets.xcassets */; };
+		64F8C3782DD2FBDA00A64F9E /* DatingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3752DD2FBDA00A64F9E /* DatingAppApp.swift */; };
+		64F8C39B2DD2FDB600A64F9E /* NotoSansJP-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64F8C3992DD2FDB600A64F9E /* NotoSansJP-Regular.otf */; };
+		64F8C39C2DD2FDB600A64F9E /* NotoSansJP-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64F8C3962DD2FDB600A64F9E /* NotoSansJP-Bold.otf */; };
+		64F8C39D2DD2FDB600A64F9E /* NotoSansJP-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64F8C39A2DD2FDB600A64F9E /* NotoSansJP-Thin.otf */; };
+		64F8C39E2DD2FDB600A64F9E /* NotoSansJP-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64F8C3952DD2FDB600A64F9E /* NotoSansJP-Black.otf */; };
+		64F8C39F2DD2FDB600A64F9E /* NotoSansJP-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64F8C3972DD2FDB600A64F9E /* NotoSansJP-Light.otf */; };
+		64F8C3A02DD2FDB600A64F9E /* NotoSansJP-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64F8C3982DD2FDB600A64F9E /* NotoSansJP-Medium.otf */; };
+		64F8C3A32DD2FDCD00A64F9E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64F8C3A12DD2FDCD00A64F9E /* Localizable.strings */; };
+		64F8C3A62DD2FE4D00A64F9E /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3A52DD2FE4D00A64F9E /* AppConfig.swift */; };
+		64F8C3B02DD2FE8000A64F9E /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3AC2DD2FE8000A64F9E /* Font+Extensions.swift */; };
+		64F8C3B12DD2FE8000A64F9E /* ObservableObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3AD2DD2FE8000A64F9E /* ObservableObject+Extensions.swift */; };
+		64F8C3B22DD2FE8000A64F9E /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3AF2DD2FE8000A64F9E /* View+Extensions.swift */; };
+		64F8C3B32DD2FE8000A64F9E /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3A82DD2FE8000A64F9E /* Bundle+Extensions.swift */; };
+		64F8C3B42DD2FE8000A64F9E /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3A92DD2FE8000A64F9E /* Color+Extensions.swift */; };
+		64F8C3B52DD2FE8000A64F9E /* Encodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3AB2DD2FE8000A64F9E /* Encodable+Extension.swift */; };
+		64F8C3B62DD2FE8000A64F9E /* Device+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3AA2DD2FE8000A64F9E /* Device+Extensions.swift */; };
+		64F8C3B72DD2FE8000A64F9E /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3AE2DD2FE8000A64F9E /* String+Extensions.swift */; };
+		64F8C3B92DD2FE9200A64F9E /* AppAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3B82DD2FE9200A64F9E /* AppAssets.swift */; };
+		64F8C3C82DD2FECF00A64F9E /* NotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3BE2DD2FECF00A64F9E /* NotificationHelper.swift */; };
+		64F8C3C92DD2FECF00A64F9E /* DestinationHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3BC2DD2FECF00A64F9E /* DestinationHostingController.swift */; };
+		64F8C3CA2DD2FECF00A64F9E /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3BB2DD2FECF00A64F9E /* Navigation.swift */; };
+		64F8C3CB2DD2FECF00A64F9E /* ErrorLocalizationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3C42DD2FECF00A64F9E /* ErrorLocalizationKey.swift */; };
+		64F8C3CC2DD2FECF00A64F9E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3C02DD2FECF00A64F9E /* Constants.swift */; };
+		64F8C3CD2DD2FECF00A64F9E /* LanguageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3C52DD2FECF00A64F9E /* LanguageHelper.swift */; };
+		64F8C3CE2DD2FECF00A64F9E /* GeneralLocalizationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3C32DD2FECF00A64F9E /* GeneralLocalizationKey.swift */; };
+		64F8C3CF2DD2FECF00A64F9E /* UserShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3C12DD2FECF00A64F9E /* UserShared.swift */; };
+		64F8C3D02DD2FECF00A64F9E /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3C62DD2FECF00A64F9E /* Localized.swift */; };
+		64F8C3D22DD2FEDB00A64F9E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3D12DD2FEDB00A64F9E /* Utils.swift */; };
+		64F8C3D62DD2FF5800A64F9E /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3D52DD2FF5800A64F9E /* SplashScreen.swift */; };
+		64F8C3D92DD2FF6800A64F9E /* SwiftUIBaseAppContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3D82DD2FF6800A64F9E /* SwiftUIBaseAppContentView.swift */; };
+		64F8C3DA2DD2FF6800A64F9E /* SwiftUIBaseAppContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3D72DD2FF6800A64F9E /* SwiftUIBaseAppContentViewModel.swift */; };
+		64F8C3E42DD3038E00A64F9E /* Dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 64F8C3E32DD3038E00A64F9E /* Dev.xcconfig */; };
+		64F8C3E62DD303AA00A64F9E /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 64F8C3E52DD303AA00A64F9E /* Staging.xcconfig */; };
+		64F8C3EC2DD303E200A64F9E /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 64F8C3EB2DD303E200A64F9E /* Production.xcconfig */; };
+		64F8C3FB2DD3162500A64F9E /* APIServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3FA2DD3161700A64F9E /* APIServiceManager.swift */; };
+		64F8C3FD2DD3169700A64F9E /* OAuthAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3FC2DD3166F00A64F9E /* OAuthAuthenticator.swift */; };
+		64F8C4002DD31AC400A64F9E /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3FF2DD31ABD00A64F9E /* APIEndpoint.swift */; };
+		64F8C4022DD31F0600A64F9E /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C4012DD31F0600A64F9E /* KeychainHelper.swift */; };
+		D4369343F7228687EE2620CC /* Pods_DatingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5FBD2C299D973FF29DA664 /* Pods_DatingApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CAC04B9B00BD32C11B334C8 /* Pods-DatingApp.production debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingApp.production debug.xcconfig"; path = "Target Support Files/Pods-DatingApp/Pods-DatingApp.production debug.xcconfig"; sourceTree = "<group>"; };
+		4C82AD4E9354EEF6EF6B0587 /* Pods-DatingApp.production release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingApp.production release.xcconfig"; path = "Target Support Files/Pods-DatingApp/Pods-DatingApp.production release.xcconfig"; sourceTree = "<group>"; };
+		5C61890674BDA6B1B847BBC5 /* Pods-DatingApp.staging debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingApp.staging debug.xcconfig"; path = "Target Support Files/Pods-DatingApp/Pods-DatingApp.staging debug.xcconfig"; sourceTree = "<group>"; };
+		64F8C3392DD2FA2100A64F9E /* DatingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F8C3722DD2FBDA00A64F9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64F8C3742DD2FBDA00A64F9E /* DatingApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DatingApp.entitlements; sourceTree = "<group>"; };
+		64F8C3752DD2FBDA00A64F9E /* DatingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatingAppApp.swift; sourceTree = "<group>"; };
+		64F8C3952DD2FDB600A64F9E /* NotoSansJP-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Black.otf"; sourceTree = "<group>"; };
+		64F8C3962DD2FDB600A64F9E /* NotoSansJP-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Bold.otf"; sourceTree = "<group>"; };
+		64F8C3972DD2FDB600A64F9E /* NotoSansJP-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Light.otf"; sourceTree = "<group>"; };
+		64F8C3982DD2FDB600A64F9E /* NotoSansJP-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Medium.otf"; sourceTree = "<group>"; };
+		64F8C3992DD2FDB600A64F9E /* NotoSansJP-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Regular.otf"; sourceTree = "<group>"; };
+		64F8C39A2DD2FDB600A64F9E /* NotoSansJP-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansJP-Thin.otf"; sourceTree = "<group>"; };
+		64F8C3A22DD2FDCD00A64F9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		64F8C3A42DD2FDEA00A64F9E /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		64F8C3A52DD2FE4D00A64F9E /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		64F8C3A82DD2FE8000A64F9E /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		64F8C3A92DD2FE8000A64F9E /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		64F8C3AA2DD2FE8000A64F9E /* Device+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Device+Extensions.swift"; sourceTree = "<group>"; };
+		64F8C3AB2DD2FE8000A64F9E /* Encodable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Extension.swift"; sourceTree = "<group>"; };
+		64F8C3AC2DD2FE8000A64F9E /* Font+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extensions.swift"; sourceTree = "<group>"; };
+		64F8C3AD2DD2FE8000A64F9E /* ObservableObject+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableObject+Extensions.swift"; sourceTree = "<group>"; };
+		64F8C3AE2DD2FE8000A64F9E /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		64F8C3AF2DD2FE8000A64F9E /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		64F8C3B82DD2FE9200A64F9E /* AppAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssets.swift; sourceTree = "<group>"; };
+		64F8C3BB2DD2FECF00A64F9E /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		64F8C3BC2DD2FECF00A64F9E /* DestinationHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationHostingController.swift; sourceTree = "<group>"; };
+		64F8C3BE2DD2FECF00A64F9E /* NotificationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHelper.swift; sourceTree = "<group>"; };
+		64F8C3C02DD2FECF00A64F9E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		64F8C3C12DD2FECF00A64F9E /* UserShared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserShared.swift; sourceTree = "<group>"; };
+		64F8C3C32DD2FECF00A64F9E /* GeneralLocalizationKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralLocalizationKey.swift; sourceTree = "<group>"; };
+		64F8C3C42DD2FECF00A64F9E /* ErrorLocalizationKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorLocalizationKey.swift; sourceTree = "<group>"; };
+		64F8C3C52DD2FECF00A64F9E /* LanguageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageHelper.swift; sourceTree = "<group>"; };
+		64F8C3C62DD2FECF00A64F9E /* Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
+		64F8C3D12DD2FEDB00A64F9E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		64F8C3D52DD2FF5800A64F9E /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		64F8C3D72DD2FF6800A64F9E /* SwiftUIBaseAppContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBaseAppContentViewModel.swift; sourceTree = "<group>"; };
+		64F8C3D82DD2FF6800A64F9E /* SwiftUIBaseAppContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBaseAppContentView.swift; sourceTree = "<group>"; };
+		64F8C3E32DD3038E00A64F9E /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xcconfig; sourceTree = "<group>"; };
+		64F8C3E52DD303AA00A64F9E /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
+		64F8C3EB2DD303E200A64F9E /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		64F8C3ED2DD3050900A64F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		64F8C3FA2DD3161700A64F9E /* APIServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceManager.swift; sourceTree = "<group>"; };
+		64F8C3FC2DD3166F00A64F9E /* OAuthAuthenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthAuthenticator.swift; sourceTree = "<group>"; };
+		64F8C3FF2DD31ABD00A64F9E /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		64F8C4012DD31F0600A64F9E /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		69D21FDC59A5E79946509150 /* Pods-DatingApp.dev release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingApp.dev release.xcconfig"; path = "Target Support Files/Pods-DatingApp/Pods-DatingApp.dev release.xcconfig"; sourceTree = "<group>"; };
+		9E5FBD2C299D973FF29DA664 /* Pods_DatingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DatingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4AE4B36131CF107FD2CC67 /* Pods-DatingApp.dev debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingApp.dev debug.xcconfig"; path = "Target Support Files/Pods-DatingApp/Pods-DatingApp.dev debug.xcconfig"; sourceTree = "<group>"; };
+		F8FDB7F2BF764A589952CA0B /* Pods-DatingApp.staging release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingApp.staging release.xcconfig"; path = "Target Support Files/Pods-DatingApp/Pods-DatingApp.staging release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64F8C3362DD2FA2100A64F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4369343F7228687EE2620CC /* Pods_DatingApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01EBB65B4F0DDC57079921F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E5FBD2C299D973FF29DA664 /* Pods_DatingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64F8C3302DD2FA2100A64F9E = {
+			isa = PBXGroup;
+			children = (
+				64F8C3792DD2FCD700A64F9E /* DatingApp */,
+				64F8C33A2DD2FA2100A64F9E /* Products */,
+				BFDBA9C707B7902694E8E99F /* Pods */,
+				01EBB65B4F0DDC57079921F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64F8C33A2DD2FA2100A64F9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64F8C3392DD2FA2100A64F9E /* DatingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64F8C3792DD2FCD700A64F9E /* DatingApp */ = {
+			isa = PBXGroup;
+			children = (
+				64F8C3ED2DD3050900A64F9E /* Info.plist */,
+				64F8C3742DD2FBDA00A64F9E /* DatingApp.entitlements */,
+				64F8C3752DD2FBDA00A64F9E /* DatingAppApp.swift */,
+				64F8C3FE2DD31A8400A64F9E /* Networking */,
+				64F8C3F32DD3079500A64F9E /* Services */,
+				64F8C3D32DD2FF2700A64F9E /* App */,
+				64F8C3BA2DD2FEBB00A64F9E /* Utils */,
+				64F8C3A72DD2FE5C00A64F9E /* Extensions */,
+				64F8C3932DD2FD8400A64F9E /* Configs */,
+				64F8C37A2DD2FCF400A64F9E /* Resources */,
+			);
+			path = DatingApp;
+			sourceTree = "<group>";
+		};
+		64F8C37A2DD2FCF400A64F9E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64F8C3942DD2FD8F00A64F9E /* Fonts */,
+				64F8C3722DD2FBDA00A64F9E /* Assets.xcassets */,
+				64F8C3A12DD2FDCD00A64F9E /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		64F8C3932DD2FD8400A64F9E /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				64F8C3A52DD2FE4D00A64F9E /* AppConfig.swift */,
+				64F8C3B82DD2FE9200A64F9E /* AppAssets.swift */,
+				64F8C3E32DD3038E00A64F9E /* Dev.xcconfig */,
+				64F8C3E52DD303AA00A64F9E /* Staging.xcconfig */,
+				64F8C3EB2DD303E200A64F9E /* Production.xcconfig */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		64F8C3942DD2FD8F00A64F9E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				64F8C3952DD2FDB600A64F9E /* NotoSansJP-Black.otf */,
+				64F8C3962DD2FDB600A64F9E /* NotoSansJP-Bold.otf */,
+				64F8C3972DD2FDB600A64F9E /* NotoSansJP-Light.otf */,
+				64F8C3982DD2FDB600A64F9E /* NotoSansJP-Medium.otf */,
+				64F8C3992DD2FDB600A64F9E /* NotoSansJP-Regular.otf */,
+				64F8C39A2DD2FDB600A64F9E /* NotoSansJP-Thin.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		64F8C3A72DD2FE5C00A64F9E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				64F8C3A82DD2FE8000A64F9E /* Bundle+Extensions.swift */,
+				64F8C3A92DD2FE8000A64F9E /* Color+Extensions.swift */,
+				64F8C3AA2DD2FE8000A64F9E /* Device+Extensions.swift */,
+				64F8C3AB2DD2FE8000A64F9E /* Encodable+Extension.swift */,
+				64F8C3AC2DD2FE8000A64F9E /* Font+Extensions.swift */,
+				64F8C3AD2DD2FE8000A64F9E /* ObservableObject+Extensions.swift */,
+				64F8C3AE2DD2FE8000A64F9E /* String+Extensions.swift */,
+				64F8C3AF2DD2FE8000A64F9E /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		64F8C3BA2DD2FEBB00A64F9E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				64F8C3D12DD2FEDB00A64F9E /* Utils.swift */,
+				64F8C4012DD31F0600A64F9E /* KeychainHelper.swift */,
+				64F8C3BD2DD2FECF00A64F9E /* NavigationHelper */,
+				64F8C3BF2DD2FECF00A64F9E /* Notifications */,
+				64F8C3C22DD2FECF00A64F9E /* Commons */,
+				64F8C3C72DD2FECF00A64F9E /* Localization */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		64F8C3BD2DD2FECF00A64F9E /* NavigationHelper */ = {
+			isa = PBXGroup;
+			children = (
+				64F8C3BB2DD2FECF00A64F9E /* Navigation.swift */,
+				64F8C3BC2DD2FECF00A64F9E /* DestinationHostingController.swift */,
+			);
+			path = NavigationHelper;
+			sourceTree = "<group>";
+		};
+		64F8C3BF2DD2FECF00A64F9E /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				64F8C3BE2DD2FECF00A64F9E /* NotificationHelper.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		64F8C3C22DD2FECF00A64F9E /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				64F8C3C02DD2FECF00A64F9E /* Constants.swift */,
+				64F8C3C12DD2FECF00A64F9E /* UserShared.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		64F8C3C72DD2FECF00A64F9E /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				64F8C3C32DD2FECF00A64F9E /* GeneralLocalizationKey.swift */,
+				64F8C3C42DD2FECF00A64F9E /* ErrorLocalizationKey.swift */,
+				64F8C3C52DD2FECF00A64F9E /* LanguageHelper.swift */,
+				64F8C3C62DD2FECF00A64F9E /* Localized.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		64F8C3D32DD2FF2700A64F9E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				64F8C3D72DD2FF6800A64F9E /* SwiftUIBaseAppContentViewModel.swift */,
+				64F8C3D82DD2FF6800A64F9E /* SwiftUIBaseAppContentView.swift */,
+				64F8C3D42DD2FF3800A64F9E /* Views */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		64F8C3D42DD2FF3800A64F9E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64F8C3D52DD2FF5800A64F9E /* SplashScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64F8C3F32DD3079500A64F9E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				64F8C3FA2DD3161700A64F9E /* APIServiceManager.swift */,
+				64F8C3FC2DD3166F00A64F9E /* OAuthAuthenticator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		64F8C3FE2DD31A8400A64F9E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				64F8C3FF2DD31ABD00A64F9E /* APIEndpoint.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BFDBA9C707B7902694E8E99F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC4AE4B36131CF107FD2CC67 /* Pods-DatingApp.dev debug.xcconfig */,
+				5C61890674BDA6B1B847BBC5 /* Pods-DatingApp.staging debug.xcconfig */,
+				3CAC04B9B00BD32C11B334C8 /* Pods-DatingApp.production debug.xcconfig */,
+				69D21FDC59A5E79946509150 /* Pods-DatingApp.dev release.xcconfig */,
+				F8FDB7F2BF764A589952CA0B /* Pods-DatingApp.staging release.xcconfig */,
+				4C82AD4E9354EEF6EF6B0587 /* Pods-DatingApp.production release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64F8C3382DD2FA2100A64F9E /* DatingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F8C3452DD2FA2200A64F9E /* Build configuration list for PBXNativeTarget "DatingApp" */;
+			buildPhases = (
+				2B69CD20955909E3D9358291 /* [CP] Check Pods Manifest.lock */,
+				64F8C3352DD2FA2100A64F9E /* Sources */,
+				64F8C3362DD2FA2100A64F9E /* Frameworks */,
+				64F8C3372DD2FA2100A64F9E /* Resources */,
+				C76530C4BFDEB9EB8C507EC9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatingApp;
+			productName = DatingApp;
+			productReference = 64F8C3392DD2FA2100A64F9E /* DatingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64F8C3312DD2FA2100A64F9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					64F8C3382DD2FA2100A64F9E = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 64F8C3342DD2FA2100A64F9E /* Build configuration list for PBXProject "DatingApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				vi,
+			);
+			mainGroup = 64F8C3302DD2FA2100A64F9E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 64F8C33A2DD2FA2100A64F9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64F8C3382DD2FA2100A64F9E /* DatingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64F8C3372DD2FA2100A64F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F8C3762DD2FBDA00A64F9E /* Assets.xcassets in Resources */,
+				64F8C39B2DD2FDB600A64F9E /* NotoSansJP-Regular.otf in Resources */,
+				64F8C39C2DD2FDB600A64F9E /* NotoSansJP-Bold.otf in Resources */,
+				64F8C39D2DD2FDB600A64F9E /* NotoSansJP-Thin.otf in Resources */,
+				64F8C39E2DD2FDB600A64F9E /* NotoSansJP-Black.otf in Resources */,
+				64F8C3A32DD2FDCD00A64F9E /* Localizable.strings in Resources */,
+				64F8C39F2DD2FDB600A64F9E /* NotoSansJP-Light.otf in Resources */,
+				64F8C3EC2DD303E200A64F9E /* Production.xcconfig in Resources */,
+				64F8C3A02DD2FDB600A64F9E /* NotoSansJP-Medium.otf in Resources */,
+				64F8C3E62DD303AA00A64F9E /* Staging.xcconfig in Resources */,
+				64F8C3E42DD3038E00A64F9E /* Dev.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B69CD20955909E3D9358291 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DatingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C76530C4BFDEB9EB8C507EC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DatingApp/Pods-DatingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DatingApp/Pods-DatingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DatingApp/Pods-DatingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64F8C3352DD2FA2100A64F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F8C3A62DD2FE4D00A64F9E /* AppConfig.swift in Sources */,
+				64F8C3B02DD2FE8000A64F9E /* Font+Extensions.swift in Sources */,
+				64F8C3B12DD2FE8000A64F9E /* ObservableObject+Extensions.swift in Sources */,
+				64F8C3B22DD2FE8000A64F9E /* View+Extensions.swift in Sources */,
+				64F8C3B32DD2FE8000A64F9E /* Bundle+Extensions.swift in Sources */,
+				64F8C3B42DD2FE8000A64F9E /* Color+Extensions.swift in Sources */,
+				64F8C3B92DD2FE9200A64F9E /* AppAssets.swift in Sources */,
+				64F8C3D22DD2FEDB00A64F9E /* Utils.swift in Sources */,
+				64F8C3B52DD2FE8000A64F9E /* Encodable+Extension.swift in Sources */,
+				64F8C3B62DD2FE8000A64F9E /* Device+Extensions.swift in Sources */,
+				64F8C4002DD31AC400A64F9E /* APIEndpoint.swift in Sources */,
+				64F8C4022DD31F0600A64F9E /* KeychainHelper.swift in Sources */,
+				64F8C3FD2DD3169700A64F9E /* OAuthAuthenticator.swift in Sources */,
+				64F8C3B72DD2FE8000A64F9E /* String+Extensions.swift in Sources */,
+				64F8C3C82DD2FECF00A64F9E /* NotificationHelper.swift in Sources */,
+				64F8C3C92DD2FECF00A64F9E /* DestinationHostingController.swift in Sources */,
+				64F8C3CA2DD2FECF00A64F9E /* Navigation.swift in Sources */,
+				64F8C3CB2DD2FECF00A64F9E /* ErrorLocalizationKey.swift in Sources */,
+				64F8C3FB2DD3162500A64F9E /* APIServiceManager.swift in Sources */,
+				64F8C3CC2DD2FECF00A64F9E /* Constants.swift in Sources */,
+				64F8C3CD2DD2FECF00A64F9E /* LanguageHelper.swift in Sources */,
+				64F8C3D62DD2FF5800A64F9E /* SplashScreen.swift in Sources */,
+				64F8C3CE2DD2FECF00A64F9E /* GeneralLocalizationKey.swift in Sources */,
+				64F8C3CF2DD2FECF00A64F9E /* UserShared.swift in Sources */,
+				64F8C3D92DD2FF6800A64F9E /* SwiftUIBaseAppContentView.swift in Sources */,
+				64F8C3DA2DD2FF6800A64F9E /* SwiftUIBaseAppContentViewModel.swift in Sources */,
+				64F8C3D02DD2FECF00A64F9E /* Localized.swift in Sources */,
+				64F8C3782DD2FBDA00A64F9E /* DatingAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64F8C3A12DD2FDCD00A64F9E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F8C3A22DD2FDCD00A64F9E /* en */,
+				64F8C3A42DD2FDEA00A64F9E /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64F8C3432DD2FA2200A64F9E /* Dev Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F8C3E32DD3038E00A64F9E /* Dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 45X345HX25;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = "Dev Debug";
+		};
+		64F8C3442DD2FA2200A64F9E /* Production Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F8C3EB2DD303E200A64F9E /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 45X345HX25;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = "Production Release";
+		};
+		64F8C3462DD2FA2200A64F9E /* Dev Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC4AE4B36131CF107FD2CC67 /* Pods-DatingApp.dev debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DatingApp/DatingApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45X345HX25;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DatingApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rikkei.Apero.DatingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = "Dev Debug";
+		};
+		64F8C3472DD2FA2200A64F9E /* Production Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C82AD4E9354EEF6EF6B0587 /* Pods-DatingApp.production release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DatingApp/DatingApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45X345HX25;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DatingApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rikkei.Apero.DatingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = "Production Release";
+		};
+		64F8C3DB2DD3013E00A64F9E /* Dev Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F8C3E32DD3038E00A64F9E /* Dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 45X345HX25;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = "Dev Release";
+		};
+		64F8C3DC2DD3013E00A64F9E /* Dev Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69D21FDC59A5E79946509150 /* Pods-DatingApp.dev release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DatingApp/DatingApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45X345HX25;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DatingApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rikkei.Apero.DatingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = "Dev Release";
+		};
+		64F8C3DD2DD3015200A64F9E /* Staging Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F8C3E52DD303AA00A64F9E /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 45X345HX25;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = "Staging Debug";
+		};
+		64F8C3DE2DD3015200A64F9E /* Staging Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C61890674BDA6B1B847BBC5 /* Pods-DatingApp.staging debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DatingApp/DatingApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45X345HX25;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DatingApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rikkei.Apero.DatingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = "Staging Debug";
+		};
+		64F8C3DF2DD3017500A64F9E /* Production Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F8C3EB2DD303E200A64F9E /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 45X345HX25;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = "Production Debug";
+		};
+		64F8C3E02DD3017500A64F9E /* Production Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CAC04B9B00BD32C11B334C8 /* Pods-DatingApp.production debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DatingApp/DatingApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45X345HX25;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DatingApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rikkei.Apero.DatingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = "Production Debug";
+		};
+		64F8C3E12DD3018300A64F9E /* Staging Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F8C3E52DD303AA00A64F9E /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 45X345HX25;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = "Staging Release";
+		};
+		64F8C3E22DD3018300A64F9E /* Staging Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8FDB7F2BF764A589952CA0B /* Pods-DatingApp.staging release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DatingApp/DatingApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 45X345HX25;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DatingApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rikkei.Apero.DatingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = "Staging Release";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64F8C3342DD2FA2100A64F9E /* Build configuration list for PBXProject "DatingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F8C3432DD2FA2200A64F9E /* Dev Debug */,
+				64F8C3DD2DD3015200A64F9E /* Staging Debug */,
+				64F8C3DF2DD3017500A64F9E /* Production Debug */,
+				64F8C3DB2DD3013E00A64F9E /* Dev Release */,
+				64F8C3E12DD3018300A64F9E /* Staging Release */,
+				64F8C3442DD2FA2200A64F9E /* Production Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Dev Debug";
+		};
+		64F8C3452DD2FA2200A64F9E /* Build configuration list for PBXNativeTarget "DatingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F8C3462DD2FA2200A64F9E /* Dev Debug */,
+				64F8C3DE2DD3015200A64F9E /* Staging Debug */,
+				64F8C3E02DD3017500A64F9E /* Production Debug */,
+				64F8C3DC2DD3013E00A64F9E /* Dev Release */,
+				64F8C3E22DD3018300A64F9E /* Staging Release */,
+				64F8C3472DD2FA2200A64F9E /* Production Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Dev Debug";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64F8C3312DD2FA2100A64F9E /* Project object */;
+}

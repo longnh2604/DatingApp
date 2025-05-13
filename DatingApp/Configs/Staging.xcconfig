@@ -1,0 +1,19 @@
+//
+//  Staging.xcconfig
+//  DatingApp
+//
+//  Created by LongNH8 on 13/5/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+//APP
+APP_NAME = [STG]SwiftUI
+PRODUCT_BUNDLE_IDENTIFIER = com.SwiftUIBase.stg
+APP_VERSION = 1.0.0
+APP_BUILD_VERSION = 1
+
+// API:
+API_ENDPOINT = https:\/\/api.stg.rikkei
+API_VERSION = 1

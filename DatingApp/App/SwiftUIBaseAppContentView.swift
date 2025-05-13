@@ -16,8 +16,16 @@ struct DatingAppContentView: View {
     
     var body: some View {
         ZStack {
-            if viewModel.isAuthenticated {
+            switch viewModel.userState {
+            case .loggedIn:
                 Text("Base View \(AppConfig.App.appName)")
+            case .onboarded:
+                Text("Login View")
+            case .notOnboarded:
+                Text("Onboarding View")
+                    .onAppear {
+                        viewModel.completeOnboarding()
+                    }
             }
         }
     }
