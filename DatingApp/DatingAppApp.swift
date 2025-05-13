@@ -6,6 +6,9 @@
 //
 
 import SwiftUI
+import FirebaseCore
+import GoogleSignIn
+import netfox
 
 @main
 // MARK: - AppDelegate
@@ -19,7 +22,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        AppFirebaseConfig.shared.config(with: application)
+        #if DEBUG
+        NFX.sharedInstance().start()
+        #endif
         return true
+    }
+    
+    func application(_ app: UIApplication, open url: URL,
+                     options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        var handled: Bool
+        handled = GIDSignIn.sharedInstance.handle(url)
+        if handled {
+            return true
+        }
+        // If not handled by this app, return false.
+        return false
     }
 }
 
@@ -36,7 +54,7 @@ class SceneDelegate: NSObject, ObservableObject, UIWindowSceneDelegate {
         navigation = navigationRoot
         // Setup rootview
         let viewModel = DatingAppContentViewModel()
-        let contentView = SplashScreen(viewModel: viewModel)
+        let contentView = SplashScreen().environmentObject(viewModel)
         let rootView = UIHostingController(rootView: contentView.environmentObject(navigationRoot))
         window.rootViewController = rootView
         self.window = window

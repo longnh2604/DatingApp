@@ -9,6 +9,12 @@ target 'DatingApp' do
   # Firebase
   pod 'FirebaseCore', '~> 11.12.0'
   pod 'FirebaseMessaging', '~> 11.12.0'
+  pod 'FirebaseCrashlytics', '~> 11.12.0'
+  pod 'Firebase/Auth', '~> 11.12.0'
+  # Social
+  pod 'GoogleSignIn'
   # Networking
   pod 'Alamofire', '~> 5.10.2'
+  # Debug
+  pod 'netfox'
 end

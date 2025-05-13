@@ -8,11 +8,7 @@
 import SwiftUI
 
 struct DatingAppContentView: View {
-    @ObservedObject var viewModel: DatingAppContentViewModel
-    
-    init(viewModel: DatingAppContentViewModel = DatingAppContentViewModel()) {
-        self.viewModel = viewModel
-    }
+    @EnvironmentObject var viewModel: DatingAppContentViewModel
     
     var body: some View {
         ZStack {
@@ -20,12 +16,9 @@ struct DatingAppContentView: View {
             case .loggedIn:
                 Text("Base View \(AppConfig.App.appName)")
             case .onboarded:
-                Text("Login View")
+                LoginView()
             case .notOnboarded:
-                Text("Onboarding View")
-                    .onAppear {
-                        viewModel.completeOnboarding()
-                    }
+                OnboardingView()
             }
         }
     }

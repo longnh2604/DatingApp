@@ -8,5 +8,6 @@
 import Foundation
 
 struct AppAssets {
-    static let splash: String                       = "ic_splash"
+    static let appIcon: String                          = "ic_app_icon"
+    static let googleIcon: String                       = "ic_google_icon"
 }

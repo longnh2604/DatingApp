@@ -37,8 +37,8 @@
 		64F8C3D02DD2FECF00A64F9E /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3C62DD2FECF00A64F9E /* Localized.swift */; };
 		64F8C3D22DD2FEDB00A64F9E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3D12DD2FEDB00A64F9E /* Utils.swift */; };
 		64F8C3D62DD2FF5800A64F9E /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3D52DD2FF5800A64F9E /* SplashScreen.swift */; };
-		64F8C3D92DD2FF6800A64F9E /* SwiftUIBaseAppContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3D82DD2FF6800A64F9E /* SwiftUIBaseAppContentView.swift */; };
-		64F8C3DA2DD2FF6800A64F9E /* SwiftUIBaseAppContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3D72DD2FF6800A64F9E /* SwiftUIBaseAppContentViewModel.swift */; };
+		64F8C3D92DD2FF6800A64F9E /* DatingAppContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3D82DD2FF6800A64F9E /* DatingAppContentView.swift */; };
+		64F8C3DA2DD2FF6800A64F9E /* DatingAppContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3D72DD2FF6800A64F9E /* DatingAppContentViewModel.swift */; };
 		64F8C3E42DD3038E00A64F9E /* Dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 64F8C3E32DD3038E00A64F9E /* Dev.xcconfig */; };
 		64F8C3E62DD303AA00A64F9E /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 64F8C3E52DD303AA00A64F9E /* Staging.xcconfig */; };
 		64F8C3EC2DD303E200A64F9E /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 64F8C3EB2DD303E200A64F9E /* Production.xcconfig */; };
@@ -46,6 +46,11 @@
 		64F8C3FD2DD3169700A64F9E /* OAuthAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3FC2DD3166F00A64F9E /* OAuthAuthenticator.swift */; };
 		64F8C4002DD31AC400A64F9E /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3FF2DD31ABD00A64F9E /* APIEndpoint.swift */; };
 		64F8C4022DD31F0600A64F9E /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C4012DD31F0600A64F9E /* KeychainHelper.swift */; };
+		64F8C4052DD33F2D00A64F9E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64F8C4042DD33F2D00A64F9E /* GoogleService-Info.plist */; };
+		64F8C4072DD33FFE00A64F9E /* AppFirebaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C4062DD33FEA00A64F9E /* AppFirebaseConfig.swift */; };
+		64F8C40A2DD3431A00A64F9E /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C4092DD342F500A64F9E /* Onboarding.swift */; };
+		64F8C40D2DD34ED600A64F9E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C40C2DD34ED200A64F9E /* LoginViewModel.swift */; };
+		64F8C40F2DD34F0D00A64F9E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C40E2DD34F0A00A64F9E /* LoginView.swift */; };
 		D4369343F7228687EE2620CC /* Pods_DatingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5FBD2C299D973FF29DA664 /* Pods_DatingApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -86,8 +91,8 @@
 		64F8C3C62DD2FECF00A64F9E /* Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
 		64F8C3D12DD2FEDB00A64F9E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		64F8C3D52DD2FF5800A64F9E /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
-		64F8C3D72DD2FF6800A64F9E /* SwiftUIBaseAppContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBaseAppContentViewModel.swift; sourceTree = "<group>"; };
-		64F8C3D82DD2FF6800A64F9E /* SwiftUIBaseAppContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBaseAppContentView.swift; sourceTree = "<group>"; };
+		64F8C3D72DD2FF6800A64F9E /* DatingAppContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatingAppContentViewModel.swift; sourceTree = "<group>"; };
+		64F8C3D82DD2FF6800A64F9E /* DatingAppContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatingAppContentView.swift; sourceTree = "<group>"; };
 		64F8C3E32DD3038E00A64F9E /* Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xcconfig; sourceTree = "<group>"; };
 		64F8C3E52DD303AA00A64F9E /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
 		64F8C3EB2DD303E200A64F9E /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
@@ -96,6 +101,11 @@
 		64F8C3FC2DD3166F00A64F9E /* OAuthAuthenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthAuthenticator.swift; sourceTree = "<group>"; };
 		64F8C3FF2DD31ABD00A64F9E /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
 		64F8C4012DD31F0600A64F9E /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		64F8C4042DD33F2D00A64F9E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		64F8C4062DD33FEA00A64F9E /* AppFirebaseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFirebaseConfig.swift; sourceTree = "<group>"; };
+		64F8C4092DD342F500A64F9E /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		64F8C40C2DD34ED200A64F9E /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		64F8C40E2DD34F0A00A64F9E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		69D21FDC59A5E79946509150 /* Pods-DatingApp.dev release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingApp.dev release.xcconfig"; path = "Target Support Files/Pods-DatingApp/Pods-DatingApp.dev release.xcconfig"; sourceTree = "<group>"; };
 		9E5FBD2C299D973FF29DA664 /* Pods_DatingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DatingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4AE4B36131CF107FD2CC67 /* Pods-DatingApp.dev debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingApp.dev debug.xcconfig"; path = "Target Support Files/Pods-DatingApp/Pods-DatingApp.dev debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +153,7 @@
 		64F8C3792DD2FCD700A64F9E /* DatingApp */ = {
 			isa = PBXGroup;
 			children = (
+				64F8C4032DD33F2400A64F9E /* GoogleServices */,
 				64F8C3ED2DD3050900A64F9E /* Info.plist */,
 				64F8C3742DD2FBDA00A64F9E /* DatingApp.entitlements */,
 				64F8C3752DD2FBDA00A64F9E /* DatingAppApp.swift */,
@@ -260,8 +271,8 @@
 		64F8C3D32DD2FF2700A64F9E /* App */ = {
 			isa = PBXGroup;
 			children = (
-				64F8C3D72DD2FF6800A64F9E /* SwiftUIBaseAppContentViewModel.swift */,
-				64F8C3D82DD2FF6800A64F9E /* SwiftUIBaseAppContentView.swift */,
+				64F8C3D72DD2FF6800A64F9E /* DatingAppContentViewModel.swift */,
+				64F8C3D82DD2FF6800A64F9E /* DatingAppContentView.swift */,
 				64F8C3D42DD2FF3800A64F9E /* Views */,
 			);
 			path = App;
@@ -270,6 +281,8 @@
 		64F8C3D42DD2FF3800A64F9E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				64F8C40B2DD34ECB00A64F9E /* Login */,
+				64F8C4082DD342EB00A64F9E /* Onboarding */,
 				64F8C3D52DD2FF5800A64F9E /* SplashScreen.swift */,
 			);
 			path = Views;
@@ -278,6 +291,7 @@
 		64F8C3F32DD3079500A64F9E /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				64F8C4062DD33FEA00A64F9E /* AppFirebaseConfig.swift */,
 				64F8C3FA2DD3161700A64F9E /* APIServiceManager.swift */,
 				64F8C3FC2DD3166F00A64F9E /* OAuthAuthenticator.swift */,
 			);
@@ -290,6 +304,31 @@
 				64F8C3FF2DD31ABD00A64F9E /* APIEndpoint.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		64F8C4032DD33F2400A64F9E /* GoogleServices */ = {
+			isa = PBXGroup;
+			children = (
+				64F8C4042DD33F2D00A64F9E /* GoogleService-Info.plist */,
+			);
+			path = GoogleServices;
+			sourceTree = "<group>";
+		};
+		64F8C4082DD342EB00A64F9E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				64F8C4092DD342F500A64F9E /* Onboarding.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		64F8C40B2DD34ECB00A64F9E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				64F8C40E2DD34F0A00A64F9E /* LoginView.swift */,
+				64F8C40C2DD34ED200A64F9E /* LoginViewModel.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		BFDBA9C707B7902694E8E99F /* Pods */ = {
@@ -372,6 +411,7 @@
 				64F8C39C2DD2FDB600A64F9E /* NotoSansJP-Bold.otf in Resources */,
 				64F8C39D2DD2FDB600A64F9E /* NotoSansJP-Thin.otf in Resources */,
 				64F8C39E2DD2FDB600A64F9E /* NotoSansJP-Black.otf in Resources */,
+				64F8C4052DD33F2D00A64F9E /* GoogleService-Info.plist in Resources */,
 				64F8C3A32DD2FDCD00A64F9E /* Localizable.strings in Resources */,
 				64F8C39F2DD2FDB600A64F9E /* NotoSansJP-Light.otf in Resources */,
 				64F8C3EC2DD303E200A64F9E /* Production.xcconfig in Resources */,
@@ -446,10 +486,13 @@
 				64F8C3B62DD2FE8000A64F9E /* Device+Extensions.swift in Sources */,
 				64F8C4002DD31AC400A64F9E /* APIEndpoint.swift in Sources */,
 				64F8C4022DD31F0600A64F9E /* KeychainHelper.swift in Sources */,
+				64F8C40A2DD3431A00A64F9E /* Onboarding.swift in Sources */,
 				64F8C3FD2DD3169700A64F9E /* OAuthAuthenticator.swift in Sources */,
 				64F8C3B72DD2FE8000A64F9E /* String+Extensions.swift in Sources */,
 				64F8C3C82DD2FECF00A64F9E /* NotificationHelper.swift in Sources */,
 				64F8C3C92DD2FECF00A64F9E /* DestinationHostingController.swift in Sources */,
+				64F8C40D2DD34ED600A64F9E /* LoginViewModel.swift in Sources */,
+				64F8C4072DD33FFE00A64F9E /* AppFirebaseConfig.swift in Sources */,
 				64F8C3CA2DD2FECF00A64F9E /* Navigation.swift in Sources */,
 				64F8C3CB2DD2FECF00A64F9E /* ErrorLocalizationKey.swift in Sources */,
 				64F8C3FB2DD3162500A64F9E /* APIServiceManager.swift in Sources */,
@@ -458,9 +501,10 @@
 				64F8C3D62DD2FF5800A64F9E /* SplashScreen.swift in Sources */,
 				64F8C3CE2DD2FECF00A64F9E /* GeneralLocalizationKey.swift in Sources */,
 				64F8C3CF2DD2FECF00A64F9E /* UserShared.swift in Sources */,
-				64F8C3D92DD2FF6800A64F9E /* SwiftUIBaseAppContentView.swift in Sources */,
-				64F8C3DA2DD2FF6800A64F9E /* SwiftUIBaseAppContentViewModel.swift in Sources */,
+				64F8C3D92DD2FF6800A64F9E /* DatingAppContentView.swift in Sources */,
+				64F8C3DA2DD2FF6800A64F9E /* DatingAppContentViewModel.swift in Sources */,
 				64F8C3D02DD2FECF00A64F9E /* Localized.swift in Sources */,
+				64F8C40F2DD34F0D00A64F9E /* LoginView.swift in Sources */,
 				64F8C3782DD2FBDA00A64F9E /* DatingAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
