@@ -79,7 +79,7 @@ public struct RoundedCorner: Shape {
     }
 }
 
-extension UIScreen{
+extension UIScreen {
    static let screenWidth = UIScreen.main.bounds.size.width
    static let screenHeight = UIScreen.main.bounds.size.height
    static let screenSize = UIScreen.main.bounds.size
@@ -102,5 +102,18 @@ extension UIScreen{
 extension View {
     func hidden(_ shouldHide: Bool) -> some View {
         opacity(shouldHide ? 0 : 1)
+    }
+    
+    func getRootViewController() -> UIViewController {
+        guard let screen = UIApplication.shared.connectedScenes.first as? UIWindowScene else {
+            return .init()
+        }
+
+        guard let root = screen.windows.first?.rootViewController else {
+            return .init()
+        }
+        
+
+        return root
     }
 }

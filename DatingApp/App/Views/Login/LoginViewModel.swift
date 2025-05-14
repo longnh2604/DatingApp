@@ -12,7 +12,9 @@ import GoogleSignIn
 class LoginViewModel: ObservableObject {
     @Published var isLoggedIn = false
     
-    func signInWithGoogle() {
-        AppFirebaseConfig.shared.signInWithGoogle()
+    init() { }
+    
+    func signInWithGoogle(view: any View) {
+        AppFirebaseConfig.shared.signInWithGoogle(view: view)
     }
 }

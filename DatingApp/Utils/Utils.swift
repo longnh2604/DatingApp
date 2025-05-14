@@ -6,11 +6,19 @@
 //
 
 import Foundation
+import UIKit
 
-func infoForKey(_ key: String) -> String {
-    guard let value = Bundle.main.infoDictionary?[key] as? String else {
-        print("⚠️ Missing key: \(key) in Info.plist")
-        return ""
+class Utils: NSObject {
+    static let shared = Utils()
+    
+    private override init() {}
+    
+    func infoForKey(_ key: String) -> String {
+        guard let value = Bundle.main.infoDictionary?[key] as? String else {
+            print("⚠️ Missing key: \(key) in Info.plist")
+            return ""
+        }
+        return value
     }
-    return value
 }
+

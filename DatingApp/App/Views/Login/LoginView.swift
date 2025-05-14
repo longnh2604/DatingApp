@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LoginView: View {
     @EnvironmentObject var viewModel: LoginViewModel
-
+    
     var body: some View {
         VStack(spacing: 40) {
             Spacer()
@@ -24,7 +24,7 @@ struct LoginView: View {
                 .fontWeight(.bold)
 
             Button(action: {
-                viewModel.signInWithGoogle()
+                viewModel.signInWithGoogle(view: self)
             }) {
                 HStack {
                     Image(AppAssets.googleIcon)

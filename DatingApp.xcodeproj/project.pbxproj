@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		647AD8992DD4310600A12BF2 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647AD8982DD4310300A12BF2 /* SessionManager.swift */; };
+		647AD8A02DD43CB900A12BF2 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647AD89F2DD43CAD00A12BF2 /* SocketIOManager.swift */; };
+		647AD8A22DD43CEB00A12BF2 /* SocketIOViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647AD8A12DD43CE700A12BF2 /* SocketIOViewModel.swift */; };
 		64F8C3762DD2FBDA00A64F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F8C3722DD2FBDA00A64F9E /* Assets.xcassets */; };
 		64F8C3782DD2FBDA00A64F9E /* DatingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F8C3752DD2FBDA00A64F9E /* DatingAppApp.swift */; };
 		64F8C39B2DD2FDB600A64F9E /* NotoSansJP-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64F8C3992DD2FDB600A64F9E /* NotoSansJP-Regular.otf */; };
@@ -58,6 +61,9 @@
 		3CAC04B9B00BD32C11B334C8 /* Pods-DatingApp.production debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingApp.production debug.xcconfig"; path = "Target Support Files/Pods-DatingApp/Pods-DatingApp.production debug.xcconfig"; sourceTree = "<group>"; };
 		4C82AD4E9354EEF6EF6B0587 /* Pods-DatingApp.production release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingApp.production release.xcconfig"; path = "Target Support Files/Pods-DatingApp/Pods-DatingApp.production release.xcconfig"; sourceTree = "<group>"; };
 		5C61890674BDA6B1B847BBC5 /* Pods-DatingApp.staging debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingApp.staging debug.xcconfig"; path = "Target Support Files/Pods-DatingApp/Pods-DatingApp.staging debug.xcconfig"; sourceTree = "<group>"; };
+		647AD8982DD4310300A12BF2 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		647AD89F2DD43CAD00A12BF2 /* SocketIOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
+		647AD8A12DD43CE700A12BF2 /* SocketIOViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOViewModel.swift; sourceTree = "<group>"; };
 		64F8C3392DD2FA2100A64F9E /* DatingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F8C3722DD2FBDA00A64F9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64F8C3742DD2FBDA00A64F9E /* DatingApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DatingApp.entitlements; sourceTree = "<group>"; };
@@ -132,6 +138,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		647AD89E2DD43BA800A12BF2 /* SocketIO */ = {
+			isa = PBXGroup;
+			children = (
+				647AD89F2DD43CAD00A12BF2 /* SocketIOManager.swift */,
+				647AD8A12DD43CE700A12BF2 /* SocketIOViewModel.swift */,
+			);
+			path = SocketIO;
+			sourceTree = "<group>";
+		};
 		64F8C3302DD2FA2100A64F9E = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +168,7 @@
 		64F8C3792DD2FCD700A64F9E /* DatingApp */ = {
 			isa = PBXGroup;
 			children = (
+				647AD89E2DD43BA800A12BF2 /* SocketIO */,
 				64F8C4032DD33F2400A64F9E /* GoogleServices */,
 				64F8C3ED2DD3050900A64F9E /* Info.plist */,
 				64F8C3742DD2FBDA00A64F9E /* DatingApp.entitlements */,
@@ -273,6 +289,7 @@
 			children = (
 				64F8C3D72DD2FF6800A64F9E /* DatingAppContentViewModel.swift */,
 				64F8C3D82DD2FF6800A64F9E /* DatingAppContentView.swift */,
+				647AD8982DD4310300A12BF2 /* SessionManager.swift */,
 				64F8C3D42DD2FF3800A64F9E /* Views */,
 			);
 			path = App;
@@ -477,11 +494,13 @@
 				64F8C3A62DD2FE4D00A64F9E /* AppConfig.swift in Sources */,
 				64F8C3B02DD2FE8000A64F9E /* Font+Extensions.swift in Sources */,
 				64F8C3B12DD2FE8000A64F9E /* ObservableObject+Extensions.swift in Sources */,
+				647AD8A22DD43CEB00A12BF2 /* SocketIOViewModel.swift in Sources */,
 				64F8C3B22DD2FE8000A64F9E /* View+Extensions.swift in Sources */,
 				64F8C3B32DD2FE8000A64F9E /* Bundle+Extensions.swift in Sources */,
 				64F8C3B42DD2FE8000A64F9E /* Color+Extensions.swift in Sources */,
 				64F8C3B92DD2FE9200A64F9E /* AppAssets.swift in Sources */,
 				64F8C3D22DD2FEDB00A64F9E /* Utils.swift in Sources */,
+				647AD8A02DD43CB900A12BF2 /* SocketIOManager.swift in Sources */,
 				64F8C3B52DD2FE8000A64F9E /* Encodable+Extension.swift in Sources */,
 				64F8C3B62DD2FE8000A64F9E /* Device+Extensions.swift in Sources */,
 				64F8C4002DD31AC400A64F9E /* APIEndpoint.swift in Sources */,
@@ -506,6 +525,7 @@
 				64F8C3D02DD2FECF00A64F9E /* Localized.swift in Sources */,
 				64F8C40F2DD34F0D00A64F9E /* LoginView.swift in Sources */,
 				64F8C3782DD2FBDA00A64F9E /* DatingAppApp.swift in Sources */,
+				647AD8992DD4310600A12BF2 /* SessionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,7 +680,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DatingApp/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_CFBundleDisplayName = "[DEV]SwiftUI";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -703,7 +723,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DatingApp/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_CFBundleDisplayName = "[DEV]SwiftUI";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -807,7 +827,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DatingApp/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_CFBundleDisplayName = "[DEV]SwiftUI";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -915,7 +935,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DatingApp/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_CFBundleDisplayName = "[DEV]SwiftUI";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -1024,7 +1044,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DatingApp/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_CFBundleDisplayName = "[DEV]SwiftUI";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -1128,7 +1148,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DatingApp/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_CFBundleDisplayName = "[DEV]SwiftUI";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

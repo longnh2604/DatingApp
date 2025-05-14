@@ -15,6 +15,8 @@ target 'DatingApp' do
   pod 'GoogleSignIn'
   # Networking
   pod 'Alamofire', '~> 5.10.2'
+  #Chat
+  pod 'Socket.IO-Client-Swift', '~> 16.1.1'
   # Debug
   pod 'netfox'
 end

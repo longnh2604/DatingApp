@@ -15,7 +15,10 @@ enum UserState {
 
 class DatingAppContentViewModel: ObservableObject {
     @Published var userState: UserState = .notOnboarded
+    @Published var loginViewModel: LoginViewModel
+    
     init() {
+        loginViewModel = LoginViewModel()
         loadUserState()
     }
 

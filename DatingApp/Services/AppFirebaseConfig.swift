@@ -10,7 +10,9 @@ import UserNotifications
 import Combine
 import FirebaseMessaging
 import FirebaseCrashlytics
+import FirebaseAuth
 import GoogleSignIn
+import SwiftUI
 
 class AppFirebaseConfig: NSObject, MessagingDelegate {
     static let shared = AppFirebaseConfig()
@@ -45,42 +47,28 @@ class AppFirebaseConfig: NSObject, MessagingDelegate {
         self.fcmToken = fcmToken
     }
     
-    func signInWithGoogle() {
-        guard let rootViewController = UIApplication.shared.windows.first?.rootViewController else {
-            print("No root view controller")
-            return
-        }
-
-        let config = GIDConfiguration(clientID: FirebaseApp.app()?.options.clientID ?? "")
+    func signInWithGoogle(view: any View) {
+        // Create Google Sign In configuration object.
+        guard let clientID = FirebaseApp.app()?.options.clientID else { return }
+        let config = GIDConfiguration(clientID: clientID)
+        GIDSignIn.sharedInstance.configuration = config
         
-//        GIDSignIn.sharedInstance.signIn(with: config, presenting: rootViewController) { [weak self] result, error in
-//            if let error = error {
-//                print("Google Sign-In error: \(error.localizedDescription)")
-//                return
-//            }
-//
-//            guard let user = result else {
-//                print("No Google user")
-//                return
-//            }
-//
-//            guard let idToken = user.authentication.idToken else { return }
-//            let accessToken = user.authentication.accessToken
-//
-//            let credential = GoogleAuthProvider.credential(withIDToken: idToken, accessToken: accessToken)
-//
-//            Auth.auth().signIn(with: credential) { authResult, error in
-//                if let error = error {
-//                    print("Firebase auth error: \(error.localizedDescription)")
-//                    return
-//                }
-//
-//                // User successfully signed in
-//                DispatchQueue.main.async {
-//                    self?.isLoggedIn = true
-//                }
-//            }
-//        }
+        GIDSignIn.sharedInstance.signIn(withPresenting: view.getRootViewController()) { signResult, error in
+            if let error = error {
+                print(error.localizedDescription)
+                return
+            }
+                    
+             guard let user = signResult?.user,
+                   let idToken = user.idToken else { return }
+             
+             let accessToken = user.accessToken
+                    
+             let credential = GoogleAuthProvider.credential(withIDToken: idToken.tokenString, accessToken: accessToken.tokenString)
+
+            // Use the credential to authenticate with Firebase
+
+        }
     }
 }
 

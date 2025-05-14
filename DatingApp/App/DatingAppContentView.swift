@@ -17,6 +17,7 @@ struct DatingAppContentView: View {
                 Text("Base View \(AppConfig.App.appName)")
             case .onboarded:
                 LoginView()
+                    .environmentObject(viewModel.loginViewModel)
             case .notOnboarded:
                 OnboardingView()
             }
